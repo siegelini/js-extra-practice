@@ -8,6 +8,14 @@
 // myMnemonic('We', 'Eat', 'Eggs'); // => WEE
 
 // YOUR CODE BELOW
+const myMnemonic = function () {
+ let result = '';
+ for (let index = 0; index < arguments.length; index++) {
+    const word = arguments[index]
+    const letter = word[0]
+ }
+    }
+
 
 // Do not change the code below this line
 module.exports = { myMnemonic };
